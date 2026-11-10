@@ -7,6 +7,9 @@ function subtract(a, b) {
 }
 
 function divide(a, b) {
+  if (b === 0) {
+    throw new Error('Деление на ноль запрещено');
+  }
   return a / b;
 }
 
