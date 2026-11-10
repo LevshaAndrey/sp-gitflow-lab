@@ -16,3 +16,10 @@ function main() {
 }
 
 main();
+
+// Демонстрация истории операций (feature/history).
+const { record, all } = require('./history');
+record('2 + 3', add(2, 3));
+record('7 - 4', subtract(7, 4));
+record('8 / 2', divide(8, 2));
+console.log('История операций:', all());
