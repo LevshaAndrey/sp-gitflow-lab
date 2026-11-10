@@ -1,0 +1,10 @@
+{
+  "name": "sp-gitflow-lab",
+  "version": "0.1.0",
+  "description": "Учебный калькулятор для лабораторной работы по Git Flow",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "license": "MIT"
+}
